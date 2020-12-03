@@ -136,9 +136,7 @@ En dicha grafica se observa que los datos obtenidos cumplen con las solicitudes 
 el servidor no estuviera por mas del 10% sin usuarios, con la posible intencion de aprovechar al maximo los recuersos del servidor sin llegar a un 
 sobrecargo de trabajo.
 
-$$
-P( \text{5 o más clientes en el sistema} ) = \sum_{i=5}^{\infty} (1 - \rho) \rho^i  = 1 - \sum_{i=0}^{4} (1 - \rho) \rho^i = \rho^5
-$$
+![90](https://github.com/jorgedaniel-rodriguez/Tema5/blob/main/ecuacion.png)
 
 Para cumplir con dicha solicitud y dado que el ingreso de clientes al servidor es de aproximadamente 2 usuarios, se utilizo la ecuacion anterior para encontrar el 
 parametro del servicio, siendo este de 2.222222 aproximadamente al esperarse que la probabilidad de que 1 o más usuarios en el servicio no disminuya del 90%; como se
