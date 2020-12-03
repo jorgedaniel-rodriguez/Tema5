@@ -15,7 +15,7 @@ Segundo semestre del 2020
 # `L5` - *Cadenas de Markov*
 
 La administración del servicio desea ahora que el servidor no esté vacío (sin atender solicitudes) más del 10% del tiempo. 
-Hallar el parámetro $$\nu$$ para satisfacer este requisito y modificar el código para medir la variable de interés en una simulación.
+Hallar el parámetro $\nu$ para satisfacer este requisito y modificar el código para medir la variable de interés en una simulación.
 
 Se importan todas las bibliotecas de python a utilizar
 
